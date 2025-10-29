@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - PlayerBullet
+  - Enemy
+  - Energy
+  - Explosion
+  - EnemyBullet
+  - panel
+  - Gun
+  - map
+  - btnShop
+  - ItemBuff
+  - BulletLevel2
+  - BulletLevel3
+  - EnemyExplosion
+  - EnemyEnergy
+  - Box
+  - FireRed
+  - FireBlue
+  - HealHp
+  - coin
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Terrain
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Group
+    uniqueID: 4124846727
+    locked: 0
+  - name: Grass
+    uniqueID: 4053110641
+    locked: 0
+  - name: Rock
+    uniqueID: 2491469915
+    locked: 0
+  - name: Tree
+    uniqueID: 1934677301
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 3193506549
+    locked: 0
+  - name: PlayerBullet
+    uniqueID: 3778615967
+    locked: 0
+  - name: Gun
+    uniqueID: 3079580413
+    locked: 0
+  - name: Enemy
+    uniqueID: 3726410429
+    locked: 0
+  - name: HpBar
+    uniqueID: 1987791531
+    locked: 0
+  - name: Energy
+    uniqueID: 74037571
+    locked: 0
+  - name: gameUI
+    uniqueID: 994882881
+    locked: 0
+  m_RenderingLayers:
+  - Default

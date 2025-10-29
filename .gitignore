@@ -1,0 +1,47 @@
+# Create a .gitignore file with Unity-optimized ignore rules
+gitignore_content = """# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Bb]enchmarkDotNet.Artifacts/
+
+# Visual Studio / JetBrains Rider
+.vs/
+.idea/
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.pidb
+*.suo
+*.tmp
+*.booproj
+*.svd
+
+# Unity auto-generated files
+*.manifest
+*.pdb
+*.mdb
+*.db
+*.bak
+*.old
+*.pidb.meta
+*.orig
+
+# Other
+sysinfo.txt
+.DS_Store
+Thumbs.db
+"""
+
+# Save the file to the working directory
+gitignore_path = "/mnt/data/.gitignore"
+with open(gitignore_path, "w", encoding="utf-8") as f:
+    f.write(gitignore_content)
+
+gitignore_path
