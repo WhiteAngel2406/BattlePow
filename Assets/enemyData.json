@@ -1,0 +1,11 @@
+{
+    "enemies": [
+        {
+            "enemyType": "HealEnemy",
+            "x": 4.241741180419922,
+            "y": 4.613832473754883,
+            "z": 0.0,
+            "currentHpEnemy": 100.0
+        }
+    ]
+}

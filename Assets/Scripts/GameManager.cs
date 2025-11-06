@@ -192,13 +192,24 @@ public class GameManager : MonoBehaviour
         ShowPanelByName("ChooseLevel");
         Time.timeScale = 0f;
     }
+    public void Introduction()
+    {
+        ShowPanelByName("Introduction");
+        Time.timeScale = 0f;
+    }
+
+    public void Setting()
+    {
+        ShowPanelByName("Setting");
+        Time.timeScale = 0f;
+    }
     //public void RestartGame()
     //{
 
     //    playerData.Instance.ResetPlayer();
     //    enemyManager.Instance.ResetEnemies();
 
-      
+
 
     //    mana.SetActive(true);
     //    //mana.SetActive(false);
